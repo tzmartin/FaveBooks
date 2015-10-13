@@ -25,5 +25,5 @@ Studio creates a new Alloy project and imports the files into it.
 
 Create a new Alloy project, then overwrite the `app` folder.
 
-    appc new -t titanium -n FaveBooks -i com.domain.favebooks
+    appc new -t titanium -n FaveBooks -i com.domain.favebooks --no-services
     cp -r app ~/workspace/Favebooks/.
